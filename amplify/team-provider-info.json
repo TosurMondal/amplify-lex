@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-chattwo-dev-200117-authRole",
+      "UnauthRoleArn": "arn:aws:iam::185627371157:role/amplify-chattwo-dev-200117-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::185627371157:role/amplify-chattwo-dev-200117-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-chattwo-dev-200117-deployment",
+      "UnauthRoleName": "amplify-chattwo-dev-200117-unauthRole",
+      "StackName": "amplify-chattwo-dev-200117",
+      "StackId": "arn:aws:cloudformation:us-east-1:185627371157:stack/amplify-chattwo-dev-200117/c5c5eeb0-8e3b-11eb-baf2-12cd418968c5",
+      "AmplifyAppId": "d352hxji86p0wv"
+    },
+    "categories": {
+      "auth": {
+        "chattwo7c272ae1": {}
+      },
+      "interactions": {
+        "lex1787706f": {
+          "deploymentBucketName": "amplify-chattwo-dev-200117-deployment",
+          "s3Key": "amplify-builds/lex1787706f-7a32655a514e626c7951-build.zip"
+        }
+      },
+      "function": {
+        "awsservices": {
+          "deploymentBucketName": "amplify-chattwo-dev-200117-deployment",
+          "s3Key": "amplify-builds/awsservices-39735871366838463455-build.zip"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+    "resourceName": "lex1787706f",
+    "botName": "awsServiceBot",
+    "intents": [
+        {
+            "lambda": {
+                "region": "us-east-1",
+                "accountId": "185627371157",
+                "lambdaArn": "arn:aws:lambda:us-east-1:185627371157:function:myfirstlambda",
+                "lambdaName": "myfirstlambda"
+            },
+            "slots": [
+                {
+                    "name": "aservices",
+                    "type": "aservices",
+                    "prompt": "which servie ?",
+                    "required": true,
+                    "customType": true
+                }
+            ],
+            "utterances": [
+                "What is aws",
+                "What is amazon Web service"
+            ],
+            "intentName": "awsServiceList",
+            "newSlotTypes": [
+                {
+                    "slotType": "aservices",
+                    "slotTypeDescription": "list of all asws services",
+                    "slotValues": [
+                        "sagemaker",
+                        "cloudformation"
+                    ]
+                }
+            ]
+        }
+    ],
+    "outputVoice": "Joanna",
+    "sessionTimeout": 5,
+    "coppa": false
+}

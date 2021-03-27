@@ -1,17 +1,23 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <amplify-authenticator>
+      <amplify-sign-in>
+      </amplify-sign-in>
+    <amplify-sign-out></amplify-sign-out>
+  </amplify-authenticator>
+  <amplify-chatbot
+    bot-name="awsServiceBot_dev"
+    bot-title="My ChatBot"
+    welcome-message="Hello, how can I help you?"
+  />
   </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    
   }
 }
 </script>
