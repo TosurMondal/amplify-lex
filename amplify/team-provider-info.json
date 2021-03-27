@@ -24,7 +24,7 @@
       "function": {
         "awsservices": {
           "deploymentBucketName": "amplify-chattwo-dev-200117-deployment",
-          "s3Key": "amplify-builds/awsservices-39735871366838463455-build.zip"
+          "s3Key": "amplify-builds/awsservices-4251384c554254524378-build.zip"
         }
       }
     }
